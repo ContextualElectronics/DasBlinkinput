@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2014-08-12 BZR 5067)-product")
+(kicad_pcb (version 4) (host pcbnew 0.201503210816+5526~22~ubuntu14.10.1-product)
 
   (general
     (links 0)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 76.099999 24.029999 129.640001 119.480001)
     (thickness 1.6)
     (drawings 8)
     (tracks 0)
@@ -105,9 +105,9 @@
   (gr_line (start 128.27 105.41) (end 77.47 105.41) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 128.27 118.11) (end 128.27 105.41) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 77.47 118.11) (end 128.27 118.11) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 129.54 24.13) (end 76.2 24.13) (angle 90) (layer Eco1.User) (width 0.2))
-  (gr_line (start 129.54 119.38) (end 129.54 24.13) (angle 90) (layer Eco1.User) (width 0.2))
-  (gr_line (start 76.2 119.38) (end 129.54 119.38) (angle 90) (layer Eco1.User) (width 0.2))
-  (gr_line (start 76.2 24.13) (end 76.2 119.38) (angle 90) (layer Eco1.User) (width 0.2))
+  (gr_line (start 171.45 66.04) (end 76.2 66.04) (angle 90) (layer Eco1.User) (width 0.2))
+  (gr_line (start 171.45 119.38) (end 171.45 66.04) (angle 90) (layer Eco1.User) (width 0.2))
+  (gr_line (start 76.2 119.38) (end 171.45 119.38) (angle 90) (layer Eco1.User) (width 0.2))
+  (gr_line (start 76.2 66.04) (end 76.2 119.38) (angle 90) (layer Eco1.User) (width 0.2))
 
 )
