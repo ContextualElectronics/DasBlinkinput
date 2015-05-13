@@ -1,0 +1,176 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:DasBlinkinput
+LIBS:CurrentSinkOrSwim
+LIBS:Das Blinkinput-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R?
+U 1 1 5552E2CE
+P 4700 2500
+F 0 "R?" V 4780 2500 50  0000 C CNN
+F 1 "1MEG" V 4700 2500 50  0000 C CNN
+F 2 "" V 4630 2500 30  0000 C CNN
+F 3 "" H 4700 2500 30  0000 C CNN
+F 4 "RC1206FR-071ML" V 4700 2500 60  0001 C CNN "MPN"
+F 5 "http://parts.io/detail/880921/RC1206FR-071ML" V 4700 2500 60  0001 C CNN "Link"
+	1    4700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5552E2D5
+P 4700 2200
+F 0 "C?" H 4725 2300 50  0000 L CNN
+F 1 "100p" H 4725 2100 50  0000 L CNN
+F 2 "" H 4738 2050 30  0000 C CNN
+F 3 "" H 4700 2200 60  0000 C CNN
+	1    4700 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L MCP6404-E/SL U?
+U 2 1 5552E2DE
+P 4450 3150
+F 0 "U?" H 4500 3350 60  0000 C CNN
+F 1 "MCP6404" H 4700 2950 50  0000 C CNN
+F 2 "" H 4450 3150 60  0000 C CNN
+F 3 "" H 4450 3150 60  0000 C CNN
+F 4 "MCP6404-E/SL" H 4450 3150 60  0001 C CNN "MPN"
+F 5 "http://parts.io/detail/3584122/MCP6404-E%2FSL" H 4450 3150 60  0001 C CNN "Link"
+	2    4450 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L Photodiode PD?
+U 1 1 5552E2E7
+P 2650 3700
+F 0 "PD?" H 2605 3835 50  0000 L CNN
+F 1 "VBPW34SR" H 2500 3620 50  0000 L CNN
+F 2 "" V 2650 3700 60  0000 C CNN
+F 3 "" V 2650 3700 60  0000 C CNN
+F 4 "VBPW34SR" H 2650 3700 60  0001 C CNN "MPN"
+F 5 "http://parts.io/detail/2942714/VBPW34SR" H 2650 3700 60  0001 C CNN "Link"
+	1    2650 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 3050 2650 3050
+Wire Wire Line
+	2650 3050 2650 3600
+Wire Wire Line
+	3550 2200 3550 3050
+Wire Wire Line
+	3550 2500 4550 2500
+Connection ~ 3550 3050
+Wire Wire Line
+	4550 2200 3550 2200
+Connection ~ 3550 2500
+Wire Wire Line
+	4850 2500 5450 2500
+Wire Wire Line
+	5450 2200 5450 3150
+Wire Wire Line
+	4950 3150 7300 3150
+Wire Wire Line
+	4850 2200 5450 2200
+Connection ~ 5450 2500
+$Comp
+L GND #PWR?
+U 1 1 5552E303
+P 3700 3500
+F 0 "#PWR?" H 3700 3250 50  0001 C CNN
+F 1 "GND" H 3700 3350 50  0000 C CNN
+F 2 "" H 3700 3500 60  0000 C CNN
+F 3 "" H 3700 3500 60  0000 C CNN
+	1    3700 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3250 3700 3250
+Wire Wire Line
+	3700 3250 3700 3500
+$Comp
+L GND #PWR?
+U 1 1 5552E31E
+P 2650 4050
+F 0 "#PWR?" H 2650 3800 50  0001 C CNN
+F 1 "GND" H 2650 3900 50  0000 C CNN
+F 2 "" H 2650 4050 60  0000 C CNN
+F 3 "" H 2650 4050 60  0000 C CNN
+	1    2650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3800 2650 4050
+$Comp
+L LM339 U?
+U 2 1 5552E327
+P 7650 3250
+F 0 "U?" H 7700 3450 60  0000 C CNN
+F 1 "LM339" H 7750 3050 50  0000 C CNN
+F 2 "" H 7650 3250 60  0000 C CNN
+F 3 "" H 7650 3250 60  0000 C CNN
+F 4 "LM339DE4" H 7650 3250 60  0001 C CNN "MPN"
+F 5 "http://parts.io/detail/916254/LM339DE4" H 7650 3250 60  0001 C CNN "Link"
+	2    7650 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 3150
+Wire Wire Line
+	7200 3350 7300 3350
+Wire Wire Line
+	8000 3250 8950 3250
+Wire Wire Line
+	7550 3550 7550 3650
+Text HLabel 8950 3250 2    60   Input ~ 0
+Channel2_Out
+Text HLabel 9000 4600 2    60   Input ~ 0
+REF_IN
+Wire Wire Line
+	9000 4600 7200 4600
+Wire Wire Line
+	7200 4600 7200 3350
+$EndSCHEMATC
