@@ -1,0 +1,241 @@
+Cmp-Mod V01 Created by Cvpcb 0.201505141916+5653~23~ubuntu14.04.1-product   date = Fri 15 May 2015 01:15:31 PM PDT
+
+BeginCmp
+TimeStamp = /555651D9;
+Reference = C101;
+ValeurCmp = 1U;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55565240;
+Reference = C102;
+ValeurCmp = 1U;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/5552D53D;
+Reference = C201;
+ValeurCmp = .1U;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/5552D504;
+Reference = C202;
+ValeurCmp = 100p;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/5552D589;
+Reference = C203;
+ValeurCmp = .1U;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDC5/5552E2D5;
+Reference = C301;
+ValeurCmp = 100p;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDD1/5552FFB3;
+Reference = C401;
+ValeurCmp = 100p;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDCE/5552F9AB;
+Reference = C501;
+ValeurCmp = 100p;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55563E64;
+Reference = P101;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /555640A4;
+Reference = P102;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /55563D09;
+Reference = P103;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5556454C;
+Reference = P104;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /55562432;
+Reference = P105;
+ValeurCmp = CONN_01X05;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/55569411;
+Reference = P201;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDC5/55563262;
+Reference = P301;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDD1/555633D1;
+Reference = P401;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDCE/555630BF;
+Reference = P501;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/5552D516;
+Reference = PD201;
+ValeurCmp = VBPW34SR;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDC5/5552E2E7;
+Reference = PD301;
+ValeurCmp = VBPW34SR;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDD1/5552FFC5;
+Reference = PD401;
+ValeurCmp = VBPW34SR;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDCE/5552F9BD;
+Reference = PD501;
+ValeurCmp = VBPW34SR;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55566A0E;
+Reference = R101;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5556A99F;
+Reference = R102;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5556AA2C;
+Reference = R103;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/5552D4FD;
+Reference = R201;
+ValeurCmp = 1MEG;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/5552D566;
+Reference = R202;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/5552D55F;
+Reference = R203;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDC5/5552E2CE;
+Reference = R301;
+ValeurCmp = 1MEG;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDD1/5552FFAC;
+Reference = R401;
+ValeurCmp = 1MEG;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552DDCE/5552F9A4;
+Reference = R501;
+ValeurCmp = 1MEG;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/5552D577;
+Reference = RV201;
+ValeurCmp = POT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55564A58;
+Reference = U101;
+ValeurCmp = LP2980IM5-3.0/NOPB;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/5552D50D;
+Reference = U201;
+ValeurCmp = MCP6404;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5552CD55/5552D556;
+Reference = U202;
+ValeurCmp = LM339;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+EndListe
