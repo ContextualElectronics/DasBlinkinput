@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -117,34 +116,8 @@ Wire Wire Line
 Wire Wire Line
 	4550 2550 5150 2550
 Connection ~ 5150 2850
-$Comp
-L GND #PWR?
-U 1 1 5552FFE1
-P 3400 3850
-F 0 "#PWR?" H 3400 3600 50  0001 C CNN
-F 1 "GND" H 3400 3700 50  0000 C CNN
-F 2 "" H 3400 3850 60  0000 C CNN
-F 3 "" H 3400 3850 60  0000 C CNN
-	1    3400 3850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3650 3600 3400 3600
-Wire Wire Line
-	3400 3600 3400 3850
-$Comp
-L GND #PWR?
-U 1 1 5552FFFC
-P 2350 4400
-F 0 "#PWR?" H 2350 4150 50  0001 C CNN
-F 1 "GND" H 2350 4250 50  0000 C CNN
-F 2 "" H 2350 4400 60  0000 C CNN
-F 3 "" H 2350 4400 60  0000 C CNN
-	1    2350 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 4150 2350 4400
 $Comp
 L LM339 U?
 U 4 1 55530005
@@ -171,4 +144,27 @@ Wire Wire Line
 	8700 4950 6900 4950
 Wire Wire Line
 	6900 4950 6900 3700
+$Comp
+L CONN_01X01 P?
+U 1 1 555633D1
+P 5950 2950
+F 0 "P?" H 5950 3050 50  0000 C CNN
+F 1 "CONN_01X01" V 6050 2950 50  0000 C CNN
+F 2 "" H 5950 2950 60  0000 C CNN
+F 3 "" H 5950 2950 60  0000 C CNN
+	1    5950 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 3150 5950 3500
+Connection ~ 5950 3500
+Wire Wire Line
+	3400 4500 3400 3600
+Wire Wire Line
+	2000 4500 3400 4500
+Wire Wire Line
+	2350 4500 2350 4150
+Text GLabel 2000 4500 0    60   Input ~ 0
+VGND
+Connection ~ 2350 4500
 $EndSCHEMATC
