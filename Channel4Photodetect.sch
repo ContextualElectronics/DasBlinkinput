@@ -167,19 +167,6 @@ Wire Wire Line
 Text GLabel 2000 4500 0    60   Input ~ 0
 VGND
 Connection ~ 2350 4500
-$Comp
-L Photodiode PD402
-U 1 1 555A3FB6
-P 2700 4050
-F 0 "PD402" H 2655 4185 50  0000 L CNN
-F 1 "NOPOP" H 2550 3970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" V 2700 4050 60  0001 C CNN
-F 3 "" V 2700 4050 60  0000 C CNN
-F 4 "TEMD6200FX01" H 2700 4050 60  0001 C CNN "MPN"
-F 5 "http://parts.io/detail/2942502/TEMD6200FX01" H 2700 4050 60  0001 C CNN "Link"
-	1    2700 4050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2700 3950 2700 3400
 Connection ~ 2700 3400

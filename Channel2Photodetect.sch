@@ -169,19 +169,6 @@ $EndComp
 Wire Wire Line
 	6200 2800 6200 3150
 Connection ~ 6200 3150
-$Comp
-L Photodiode PD302
-U 1 1 555A3C90
-P 3050 3750
-F 0 "PD302" H 3005 3885 50  0000 L CNN
-F 1 "NOPOP" H 2900 3670 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" V 3050 3750 60  0001 C CNN
-F 3 "" V 3050 3750 60  0000 C CNN
-F 4 "TEMD6200FX01" H 3050 3750 60  0001 C CNN "MPN"
-F 5 "http://parts.io/detail/2942502/TEMD6200FX01" H 3050 3750 60  0001 C CNN "Link"
-	1    3050 3750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3050 3050 3050 3650
 Wire Wire Line
