@@ -88,7 +88,7 @@ U 1 1 5552D516
 P 2700 3900
 F 0 "PD201" H 2655 4035 50  0000 L CNN
 F 1 "VBPW34SR" H 2550 3820 50  0000 L CNN
-F 2 "DasBlinkinput:VPW34SR" V 2700 3900 60  0001 C CNN
+F 2 "DasBlinkinput:VPW34SR*" V 2700 3900 60  0001 C CNN
 F 3 "" V 2700 3900 60  0000 C CNN
 F 4 "VBPW34SR" H 2700 3900 60  0001 C CNN "MPN"
 F 5 "http://parts.io/detail/2942714/VBPW34SR" H 2700 3900 60  0001 C CNN "Link"
@@ -96,11 +96,17 @@ F 5 "http://parts.io/detail/2942714/VBPW34SR" H 2700 3900 60  0001 C CNN "Link"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4000 3250 2700 3250
+	4000 3250 3600 3250
+Wire Wire Line
+	3600 3250 3050 3250
+Wire Wire Line
+	3050 3250 2700 3250
 Wire Wire Line
 	2700 3250 2700 3800
 Wire Wire Line
-	3600 2400 3600 3250
+	3600 2400 3600 2700
+Wire Wire Line
+	3600 2700 3600 3250
 Wire Wire Line
 	3600 2700 4600 2700
 Connection ~ 3600 3250
@@ -110,9 +116,15 @@ Connection ~ 3600 2700
 Wire Wire Line
 	4900 2700 5500 2700
 Wire Wire Line
-	5500 2400 5500 3350
+	5500 2400 5500 2700
 Wire Wire Line
-	5000 3350 7350 3350
+	5500 2700 5500 3350
+Wire Wire Line
+	5000 3350 5500 3350
+Wire Wire Line
+	5500 3350 6150 3350
+Wire Wire Line
+	6150 3350 7350 3350
 Wire Wire Line
 	4900 2400 5500 2400
 Connection ~ 5500 2700
@@ -138,7 +150,9 @@ Wire Wire Line
 Text GLabel 4300 3950 0    60   Input ~ 0
 3V
 Wire Wire Line
-	4300 3950 4550 3950
+	4300 3950 4400 3950
+Wire Wire Line
+	4400 3950 4550 3950
 Wire Wire Line
 	4400 3950 4400 3750
 $Comp
@@ -240,11 +254,15 @@ Wire Wire Line
 Wire Wire Line
 	6950 4550 6900 4550
 Wire Wire Line
-	6750 4800 6750 4950
+	6750 4800 6750 4850
+Wire Wire Line
+	6750 4850 6750 4950
 Wire Wire Line
 	6750 4850 7250 4850
 Wire Wire Line
-	7250 3550 7250 4900
+	7250 3550 7250 4850
+Wire Wire Line
+	7250 4850 7250 4900
 Wire Wire Line
 	7250 3550 7350 3550
 Connection ~ 6750 4850
@@ -253,7 +271,9 @@ Wire Wire Line
 Text GLabel 7500 2900 0    60   Input ~ 0
 3V
 Wire Wire Line
-	7500 2900 7750 2900
+	7500 2900 7600 2900
+Wire Wire Line
+	7600 2900 7750 2900
 $Comp
 L C C203
 U 1 1 5552D589
@@ -320,16 +340,14 @@ Connection ~ 6150 3350
 Wire Wire Line
 	3650 4450 3650 3450
 Wire Wire Line
-	2450 4450 3650 4450
+	2450 4450 2700 4450
+Wire Wire Line
+	2700 4450 3050 4450
+Wire Wire Line
+	3050 4450 3650 4450
 Wire Wire Line
 	2700 4450 2700 4000
 Text GLabel 2450 4450 0    60   Input ~ 0
 VGND
 Connection ~ 2700 4450
-Wire Wire Line
-	3050 3800 3050 3250
-Connection ~ 3050 3250
-Wire Wire Line
-	3050 4000 3050 4450
-Connection ~ 3050 4450
 $EndSCHEMATC

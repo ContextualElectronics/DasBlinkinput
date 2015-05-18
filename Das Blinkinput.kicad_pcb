@@ -1057,7 +1057,7 @@
   )
 
   (module DasBlinkinput:VPW34SR* (layer B.Cu) (tedit 555A3219) (tstamp 555A051E)
-    (at 85.5472 111.7092 90)
+    (at 83.7946 111.5314 90)
     (path /5552CD55/5552D516)
     (fp_text reference PD201 (at 0 -3.5 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
