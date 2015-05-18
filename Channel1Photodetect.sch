@@ -326,4 +326,23 @@ Wire Wire Line
 Text GLabel 2450 4450 0    60   Input ~ 0
 VGND
 Connection ~ 2700 4450
+$Comp
+L Photodiode PD202
+U 1 1 555A3014
+P 3050 3900
+F 0 "PD202" H 3005 4035 50  0000 L CNN
+F 1 "NOPOP" H 2900 3820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 3050 3900 60  0001 C CNN
+F 3 "" V 3050 3900 60  0000 C CNN
+F 4 "TEMD6200FX01" H 3050 3900 60  0001 C CNN "MPN"
+F 5 "http://parts.io/detail/2942502/TEMD6200FX01" H 3050 3900 60  0001 C CNN "Link"
+	1    3050 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 3800 3050 3250
+Connection ~ 3050 3250
+Wire Wire Line
+	3050 4000 3050 4450
+Connection ~ 3050 4450
 $EndSCHEMATC

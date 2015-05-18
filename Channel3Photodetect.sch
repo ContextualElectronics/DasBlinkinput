@@ -169,4 +169,23 @@ $EndComp
 Wire Wire Line
 	5950 3100 5950 3300
 Connection ~ 5950 3300
+$Comp
+L Photodiode PD502
+U 1 1 555A3DD2
+P 2700 3950
+F 0 "PD502" H 2655 4085 50  0000 L CNN
+F 1 "NOPOP" H 2550 3870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 2700 3950 60  0001 C CNN
+F 3 "" V 2700 3950 60  0000 C CNN
+F 4 "TEMD6200FX01" H 2700 3950 60  0001 C CNN "MPN"
+F 5 "http://parts.io/detail/2942502/TEMD6200FX01" H 2700 3950 60  0001 C CNN "Link"
+	1    2700 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 3200 2700 3850
+Wire Wire Line
+	2700 4050 2700 4600
+Connection ~ 2700 3200
+Connection ~ 2700 4600
 $EndSCHEMATC
