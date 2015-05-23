@@ -137,7 +137,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 3600 8650 3600
 Text HLabel 8650 3600 2    60   Input ~ 0
-Channel4_Out
+PD4
 Text HLabel 8700 4950 2    60   Input ~ 0
 REF_IN
 Wire Wire Line

@@ -50,32 +50,32 @@ S 5050 850  1450 1200
 U 5552CD55
 F0 "Channel1Photodetect" 60
 F1 "Channel1Photodetect.sch" 60
-F2 "Channel1_Out" I R 6500 1400 60 
-F3 "REF_OUT" I L 5050 1700 60 
+F2 "REF_OUT" I L 5050 1700 60 
+F3 "PD2" I R 6500 1400 60 
 $EndSheet
 $Sheet
 S 5100 2350 1400 1200
 U 5552DDC5
 F0 "Channel2Photodetect" 60
 F1 "Channel2Photodetect.sch" 60
-F2 "Channel2_Out" I R 6500 2950 60 
-F3 "REF_IN" I L 5100 3300 60 
+F2 "REF_IN" I L 5100 3300 60 
+F3 "PD3" I R 6500 2950 60 
 $EndSheet
 $Sheet
 S 5100 5300 1400 1200
 U 5552DDD1
 F0 "Channel4Photodetect" 60
 F1 "Channel4Photodetect.sch" 60
-F2 "Channel4_Out" I R 6500 5900 60 
-F3 "REF_IN" I L 5100 6200 60 
+F2 "REF_IN" I L 5100 6200 60 
+F3 "PD4" I R 6500 5900 60 
 $EndSheet
 $Sheet
 S 5150 3800 1450 1150
 U 5552DDCE
 F0 "Channel3Photodetect" 60
 F1 "Channel3Photodetect.sch" 60
-F2 "Channel3_Out" I R 6600 4400 60 
-F3 "REF_IN" I L 5150 4750 60 
+F2 "REF_IN" I L 5150 4750 60 
+F3 "PD5" I R 6600 4400 60 
 $EndSheet
 $Comp
 L CONN_01X05 P105
@@ -154,64 +154,6 @@ F 3 "" H 3700 2050 60  0000 C CNN
 	1    3700 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 1700 4850 1700
-Wire Wire Line
-	4850 1700 4850 6200
-Wire Wire Line
-	4850 3300 5100 3300
-Wire Wire Line
-	4850 4750 5150 4750
-Connection ~ 4850 3300
-Wire Wire Line
-	4850 6200 5100 6200
-Connection ~ 4850 4750
-Wire Wire Line
-	8050 1400 6500 1400
-Wire Wire Line
-	6500 2950 6800 2950
-Wire Wire Line
-	6800 2950 6800 1500
-Wire Wire Line
-	6800 1500 8050 1500
-Wire Wire Line
-	6600 4400 7000 4400
-Wire Wire Line
-	7000 4400 7000 1600
-Wire Wire Line
-	7000 1600 8050 1600
-Wire Wire Line
-	6500 5900 7200 5900
-Wire Wire Line
-	7200 5900 7200 1700
-Wire Wire Line
-	7200 1700 8050 1700
-Wire Wire Line
-	8050 1800 7850 1800
-Wire Wire Line
-	7850 1800 7850 2450
-Wire Wire Line
-	1100 1900 1100 1700
-Wire Wire Line
-	1100 1700 950  1700
-Wire Wire Line
-	950  1600 1900 1600
-Wire Wire Line
-	1350 1600 1350 1800
-Connection ~ 1350 1600
-Wire Wire Line
-	1350 2100 1350 2800
-Wire Wire Line
-	1350 2800 3700 2800
-Wire Wire Line
-	2700 2800 2700 2600
-Wire Wire Line
-	3700 2800 3700 2200
-Connection ~ 2700 2800
-Wire Wire Line
-	3500 1600 4000 1600
-Wire Wire Line
-	3700 1600 3700 1900
 $Comp
 L R R101
 U 1 1 55566A0E
@@ -223,14 +165,6 @@ F 3 "" H 1650 2300 30  0000 C CNN
 	1    1650 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1650 2150 1650 1800
-Wire Wire Line
-	1650 1800 1900 1800
-Wire Wire Line
-	1650 2450 1650 2800
-Connection ~ 1650 2800
-Connection ~ 3700 1600
 Text GLabel 4000 1600 2    60   Input ~ 0
 3V
 $Comp
@@ -257,14 +191,6 @@ F 3 "" H 2200 5700 30  0000 C CNN
 $EndComp
 Text GLabel 1900 4700 0    60   Input ~ 0
 3V
-Wire Wire Line
-	1900 4700 2200 4700
-Wire Wire Line
-	2200 4700 2200 5000
-Wire Wire Line
-	2200 5300 2200 5550
-Wire Wire Line
-	2200 5850 2200 6300
 $Comp
 L GND #PWR03
 U 1 1 5556AB87
@@ -276,9 +202,6 @@ F 3 "" H 2450 2850 60  0000 C CNN
 	1    2450 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 2850 2450 2800
-Connection ~ 2450 2800
 $Comp
 L GND #PWR04
 U 1 1 5556B658
@@ -290,9 +213,6 @@ F 3 "" H 2200 6300 60  0000 C CNN
 	1    2200 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 5400 2850 5400
-Connection ~ 2200 5400
 Text GLabel 2850 5400 2    60   Input ~ 0
 VGND
 $Comp
@@ -306,9 +226,6 @@ F 3 "" H 3600 1050 60  0000 C CNN
 	1    3600 1050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3600 1250 3600 1600
-Connection ~ 3600 1600
 $Comp
 L CONN_01X01 P102
 U 1 1 555640A4
@@ -320,9 +237,6 @@ F 3 "" H 2700 4850 60  0000 C CNN
 	1    2700 4850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2700 5050 2700 5400
-Connection ~ 2700 5400
 $Comp
 L CONN_01X01 P104
 U 1 1 5556454C
@@ -334,7 +248,107 @@ F 3 "" H 3650 3150 60  0000 C CNN
 	1    3650 3150
 	0    1    1    0   
 $EndComp
+Connection ~ 3650 2800
 Wire Wire Line
 	3650 2950 3650 2800
-Connection ~ 3650 2800
+Connection ~ 2700 5400
+Wire Wire Line
+	2700 5050 2700 5400
+Connection ~ 3600 1600
+Wire Wire Line
+	3600 1250 3600 1600
+Connection ~ 2200 5400
+Wire Wire Line
+	2200 5400 2850 5400
+Connection ~ 2450 2800
+Wire Wire Line
+	2450 2850 2450 2800
+Wire Wire Line
+	2200 5850 2200 6300
+Wire Wire Line
+	2200 5300 2200 5550
+Wire Wire Line
+	2200 4700 2200 5000
+Wire Wire Line
+	1900 4700 2200 4700
+Connection ~ 3700 1600
+Connection ~ 1650 2800
+Wire Wire Line
+	1650 2450 1650 2800
+Wire Wire Line
+	1650 1800 1900 1800
+Wire Wire Line
+	1650 2150 1650 1800
+Wire Wire Line
+	3700 1600 3700 1900
+Wire Wire Line
+	3500 1600 4000 1600
+Connection ~ 2700 2800
+Wire Wire Line
+	3700 2800 3700 2200
+Wire Wire Line
+	2700 2800 2700 2600
+Wire Wire Line
+	1350 2800 3700 2800
+Wire Wire Line
+	1350 2100 1350 2800
+Connection ~ 1350 1600
+Wire Wire Line
+	1350 1600 1350 1800
+Wire Wire Line
+	950  1600 1900 1600
+Wire Wire Line
+	1100 1700 950  1700
+Wire Wire Line
+	1100 1900 1100 1700
+Wire Wire Line
+	7850 1800 7850 2450
+Wire Wire Line
+	8050 1800 7850 1800
+Wire Wire Line
+	7200 1700 8050 1700
+Wire Wire Line
+	7200 5900 7200 1700
+Wire Wire Line
+	6500 5900 7200 5900
+Wire Wire Line
+	7000 1600 8050 1600
+Wire Wire Line
+	7000 4400 7000 1600
+Wire Wire Line
+	6600 4400 7000 4400
+Wire Wire Line
+	6800 1500 8050 1500
+Wire Wire Line
+	6800 2950 6800 1500
+Wire Wire Line
+	6500 2950 6800 2950
+Wire Wire Line
+	8050 1400 6500 1400
+Connection ~ 4850 4750
+Wire Wire Line
+	4850 6200 5100 6200
+Connection ~ 4850 3300
+Wire Wire Line
+	4850 4750 5150 4750
+Wire Wire Line
+	4850 3300 5100 3300
+Wire Wire Line
+	4850 1700 4850 6200
+Wire Wire Line
+	5050 1700 4850 1700
+$Comp
+L CONN_01X01 P106
+U 1 1 5560D7BE
+P 4450 4400
+F 0 "P106" H 4450 4500 50  0000 C CNN
+F 1 "CONN_01X01" V 4550 4400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 4450 4400 60  0001 C CNN
+F 3 "" H 4450 4400 60  0000 C CNN
+	1    4450 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 4400 4850 4400
+Connection ~ 4850 4400
 $EndSCHEMATC

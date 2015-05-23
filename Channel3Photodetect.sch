@@ -124,7 +124,7 @@ Wire Wire Line
 	2350 3950 2350 4600
 $Comp
 L LM339 U202
-U 4 1 5552F9FD
+U 1 1 5552F9FD
 P 7350 3400
 F 0 "U202" H 7400 3600 60  0000 C CNN
 F 1 "LM339" H 7450 3200 50  0000 C CNN
@@ -132,7 +132,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7350 3400 60  0001 C CNN
 F 3 "" H 7350 3400 60  0000 C CNN
 F 4 "LM339DE4" H 7350 3400 60  0001 C CNN "MPN"
 F 5 "http://parts.io/detail/916254/LM339DE4" H 7350 3400 60  0001 C CNN "Link"
-	4    7350 3400
+	1    7350 3400
 	1    0    0    -1  
 $EndComp
 Connection ~ 5150 3300
@@ -143,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 3700 7250 3800
 Text HLabel 8650 3400 2    60   Input ~ 0
-Channel3_Out
+PD5
 Text HLabel 8700 4750 2    60   Input ~ 0
 REF_IN
 Wire Wire Line

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201505141916+5653~23~ubuntu14.04.1-product   date = Mon 18 May 2015 11:44:35 AM PDT
+Cmp-Mod V01 Created by Cvpcb 0.201505220134+5676~23~ubuntu14.04.1-product   date = Sat 23 May 2015 12:12:38 AM PDT
 
 BeginCmp
 TimeStamp = /555651D9;
@@ -89,6 +89,13 @@ TimeStamp = /55562432;
 Reference = P105;
 ValeurCmp = CONN_01X05;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /5560D7BE;
+Reference = P106;
+ValeurCmp = CONN_01X01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
@@ -214,7 +221,7 @@ BeginCmp
 TimeStamp = /5552CD55/5552D577;
 Reference = RV201;
 ValeurCmp = POT;
-IdModule  = ;
+IdModule  = Current:P090L-02F25BR10K;
 EndCmp
 
 BeginCmp
